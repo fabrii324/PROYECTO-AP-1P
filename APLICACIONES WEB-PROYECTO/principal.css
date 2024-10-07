@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fondo gris claro */
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #d0002a; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.3s; /* Transición de color en el enlace */
+}
+
+.nav-links a:hover {
+    color: #d0002a; /* Color azul más oscuro al pasar el ratón */
+}
+
+/* Estilos para la sección de héroe (hero) */
+.hero {
+    background-image: url('ULEAMlobby.jpg'); /* Imagen de fondo (reemplaza con tu propia imagen) */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 5px 0;
+    color: #fff; /* Texto blanco */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; /* Asegura que la sección cubra la altura completa de la ventana */
+}
+
+/* Estilos para el contenido de héroe (hero-content) */
+.hero-content {
+    background-color: rgba(0, 10, 3, 0.616); /* Fondo azul con opacidad */
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 10px auto; /* Centra el texto horizontalmente */
+}
